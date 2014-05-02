@@ -1,0 +1,25 @@
+{
+  "name": "flixer",
+  "version": "0.0.1",
+  "description": "request streams from magnet links on demand",
+  "main": "flixer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x4139/flixer"
+  },
+  "author": "0x4139@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x4139/flixer/issues"
+  },
+  "homepage": "https://github.com/0x4139/flixer",
+  "dependencies": {
+    "torrent-stream": "^0.7.6",
+    "mime": "^1.2.11",
+    "pump": "^0.3.1",
+    "range-parser": "^1.0.0"
+  }
+}
