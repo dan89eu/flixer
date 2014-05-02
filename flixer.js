@@ -8,7 +8,7 @@ var pump = require('pump');
 var engine = torrentStream('magnet:?xt=urn:btih:b170691fe3b6aaeba73f8ea122e85ded4ad2e1bf');
 engine.on('ready', function() {
   console.log(engine.files);
-  var file=engine.files[0];
+  var file=engine.files[1];
 
   http.createServer(function (request, response) {
 
